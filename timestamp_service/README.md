@@ -4,7 +4,7 @@ This service calculates the **absolute difference in seconds** between two times
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Ensure the following tools are installed:
 
@@ -14,7 +14,7 @@ Ensure the following tools are installed:
 
 ---
 
-## 🧰 Setup Instructions
+##  Setup Instructions
 
 1. **Clone or download** this repository.
 
@@ -36,7 +36,7 @@ Ensure the following tools are installed:
 
 ---
 
-## 🚀 Running the App
+##  Running the App
 
 Start the Flask service:
 
@@ -48,7 +48,7 @@ The app will be available at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 📮 How to Use the API
+##  How to Use the API
 
 ### Endpoint
 
@@ -91,7 +91,7 @@ curl -X POST http://127.0.0.1:5000/timestamp-diff \
 
 ---
 
-## 🧪 Testing Locally with Postman
+##  Testing Locally with Postman
 
 1. Open Postman
 2. Choose `POST` method and enter URL: `http://127.0.0.1:5000/timestamp-diff`
@@ -101,7 +101,7 @@ curl -X POST http://127.0.0.1:5000/timestamp-diff \
 
 ---
 
-## 🔧 Folder Structure
+##  Folder Structure
 
 ```
 timestamp_service/
