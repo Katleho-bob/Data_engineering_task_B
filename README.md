@@ -33,7 +33,7 @@ This is a simple Flask-based REST API that calculates the absolute time differen
    python app.py
    ```
 
-2. The application will be hosted at `http://127.0.0.1:5000`.
+2. The application will be hosted at `http://localhost:5000`.
 
 ### API Endpoint
 
@@ -64,7 +64,17 @@ This is a simple Flask-based REST API that calculates the absolute time differen
       ```json
       { "error": "Invalid input format" }
       ```
+---
 
+##  Testing Locally with Postman
+
+1. Open Postman
+2. Choose `POST` method and enter URL: `http://127.0.0.1:5000/timestamp-diff`
+3. Go to **Body** → select `raw` → choose `Text`
+4. Paste the same timestamp sample as above
+5. Click **Send** to see the JSON result
+
+```
 ## Functions
 
 - **`parse_datetime(dt_str)`**: Parses the input timestamp string into a `datetime` object using the format `"%a %d %b %Y %H:%M:%S %z"`.
